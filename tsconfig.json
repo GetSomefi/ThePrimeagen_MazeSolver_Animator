@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "allowJs": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "target": "esnext",
+    "module": "commonjs",                                /* Skip type checking all .d.ts files. */
+    "baseUrl": "./",
+    "paths": {
+      "@code/*": [
+          "day1/*"
+      ]
+    }
+  }
+}
